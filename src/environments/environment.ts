@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //baseUrl: 'http://52.60.131.110:8081/experiencesp11',
+  baseUrl: 'https://app.groupstr.com:8443/experience',
+  CMS_APP_URL: 'http://app.groupstr.com',
 };
 
 /*
